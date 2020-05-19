@@ -17,6 +17,8 @@ database_path = "./Databases_commits/github_repo_commits_20150901.csv"
 
 pulls_df = pd.read_csv(database_path)
 
+pulls_df
+
 
 for i in range(0,len(pulls_df.index)):
 

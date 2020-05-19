@@ -16,9 +16,6 @@ pulls_df = pd.read_csv(database_path)
 
 pulls_df
 
-pulls.df['repo']
-
-
 
 plt.hist(pulls_df['r_py_actions'], bins=30,range=[0, 30])  
 plt.ylabel('Frequency')
