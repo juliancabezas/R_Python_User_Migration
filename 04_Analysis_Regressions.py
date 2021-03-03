@@ -174,7 +174,7 @@ dic_lists = {'user': users_list,'slope':slopes_list,'p_value':p_values_list,'mea
 results_index = pd.DataFrame(dic_lists)
 
 # Write to csv
-results_index.to_csv("./Results/Results_index_filter30_v2.csv",index=False)
+results_index.to_csv("./Results/Results_index_filter30_v3.csv",index=False)
 
 results_index[results_index['p_value'] <= 0.05]
 results_index[(results_index['p_value'] <= 0.05) & (results_index['slope'] < 0)]
